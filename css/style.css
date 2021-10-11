@@ -1,0 +1,369 @@
+/* home */
+
+#home {
+    position: relative;
+    background-image: url(../img/start.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.form-check-input, .form-check-label {
+    cursor: pointer;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+#chicken img {
+    position: absolute;
+    width: 120px;
+    transform: translateX(-50%);
+}
+
+.weapon {
+    position: absolute;
+    width: 100px;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.weaponMove {
+    animation-name: move;
+    animation-duration: 1s;
+}
+
+@keyframes move {
+    0% {
+        top: 80%;
+    }
+    100% {
+        top: -30%;
+    }
+}
+
+.bullet img {
+    position: absolute;
+    width: 10px;
+    transform: translateX(-50%);
+}
+
+#gameOver {
+    background-image: url(../img/gameover.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+#winLevel1 {
+    background-image: url(../img/win.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.victoryScore {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.start {
+    cursor: default;
+    top: 35%;
+}
+
+#gameOver p {
+    cursor: default;
+}
+
+#winLevel1 p {
+    cursor: default;
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    #chicken img {
+        width: 90px;
+    }
+    .weapon {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    #chicken img {
+        width: 80px;
+    }
+    .weapon {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:600px) {
+    #chicken img {
+        width: 70px;
+    }
+    .weapon {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #chicken img {
+        width: 50px;
+    }
+    .weapon {
+        width: 65px;
+    }
+}
+
+/* level2 */
+
+#level2 {
+    position: relative;
+    background-image: url(../img/move.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.scoreLevel2 {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+#chickenLevel2 img {
+    position: absolute;
+    width: 120px;
+    transform: translateX(-50%);
+}
+
+.weaponLevel2 {
+    position: absolute;
+    width: 100px;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bulletLevel2 img {
+    position: absolute;
+    width: 10px;
+    transform: translateX(-50%);
+}
+
+#gameOverLevel2 {
+    background-image: url(../img/gameover.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+#winLevel2 {
+    background-image: url(../img/win.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.victoryScoreLevel2 {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.startLevel2 {
+    cursor: default;
+}
+
+#gameOverLevel2 p {
+    cursor: default;
+}
+
+#winLevel2 p {
+    cursor: default;
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    #chickenLevel2 img {
+        width: 90px;
+    }
+    .weaponLevel2 {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    #chickenLevel2 img {
+        width: 80px;
+    }
+    .weaponLevel2 {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:600px) {
+    #chickenLevel2 img {
+        width: 70px;
+    }
+    .weaponLevel2 {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #chickenLevel2 img {
+        width: 50px;
+    }
+    .weaponLevel2 {
+        width: 65px;
+    }
+}
+
+/* level3 */
+
+#level3 {
+    position: relative;
+    background-image: url(../img/move.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.scoreLevel3 {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+#chickenLevel3 img {
+    position: absolute;
+    width: 120px;
+    transform: translateX(-50%);
+}
+
+#bigChickenLevel3 img {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 400px;
+}
+
+.weaponLevel3 {
+    position: absolute;
+    width: 100px;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bulletLevel3 img {
+    position: absolute;
+    width: 10px;
+    transform: translateX(-50%);
+}
+
+#eggLevel3 img {
+    position: absolute;
+    width: 20px;
+    transform: translateX(-50%);
+}
+
+#gameOverLevel3 {
+    background-image: url(../img/gameover.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+#winLevel3 {
+    background-image: url(../img/win.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.victoryScoreLevel3 {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.startLevel3 {
+    cursor: default;
+}
+
+#gameOverLevel3 p {
+    cursor: default;
+}
+
+#winLevel3 p {
+    cursor: default;
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    #chickenLevel3 img {
+        width: 90px;
+    }
+    .weaponLevel3 {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    #chickenLevel3 img {
+        width: 80px;
+    }
+    .weaponLevel3 {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:600px) {
+    #chickenLevel3 img {
+        width: 70px;
+    }
+    .weaponLevel3 {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #chickenLevel3 img {
+        width: 50px;
+    }
+    .weaponLevel3 {
+        width: 65px;
+    }
+}

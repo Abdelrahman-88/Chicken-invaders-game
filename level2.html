@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Chicken Invaders</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="description" content="Chicken Invaders Game">
+
+    <meta name="keywords" content="Chicken Invaders Game">
+
+    <meta name="author" content="Abdelrahman Elsayed">
+
+    <link rel="shortcut icon" href="img/chicken1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="level2" class="container-fluid overflow-hidden">
+
+        <p class="scoreLevel2 fw-bolder text-danger fs-4 d-none">Score <span id="scoreLevel2Points">00</span></p>
+
+        <div id="chickenLevel2">
+
+        </div>
+        <div class="startLevel2 text-center position-absolute top-50 start-50 translate-middle text-light">
+
+            <p class="fs-4 fw-bolder">Press enter to start level 2</p>
+        </div>
+
+        <div>
+            <img src="img/weapon.png" alt="weapon" class="d-none weaponLevel2">
+        </div>
+        <div class="bulletLevel2">
+
+        </div>
+        <audio class="weaponTrackLevel2">
+            <source src="img/preview.mp3">
+        </audio>
+
+        <audio id="level2Intro">
+            <source src="img/04-09. Suspense.mp3">
+        </audio>
+    </section>
+
+    <section id="gameOverLevel2" class="d-none container-fluid">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-center">
+                <p>
+                    Game Over
+                </p>
+                <p class="text-danger fw-bolder fs-1" id="gameOverScoreLevel2"></p>
+                <p id="tryAgainBtnLevel2" class="fs-4">Press enter to Try Again</p>
+            </div>
+
+            <audio id="gameOverTrackLevel2">
+                <source src="img/01-03. Game Over.mp3">
+            </audio>
+        </div>
+    </section>
+
+    <section id="winLevel2" class="d-none container-fluid">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-center">
+                <p>
+                    Victory
+                </p>
+                <p class="victoryScoreLevel2 text-danger fw-bolder fs-1"></p>
+                <p id="playLevel3" class=" fs-4">Press enter to play level 3</p>
+
+            </div>
+            <audio class="victoryTrackLevel2">
+                <source src="img/04-10. Victory.mp3">
+            </audio>
+
+
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+
+
+
+
+</html>
