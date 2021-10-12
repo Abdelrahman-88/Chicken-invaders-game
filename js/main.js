@@ -1,8 +1,5 @@
 "use strict"
 
-let url = location.href;
-let index = url.lastIndexOf("/");
-let fixed = url.substring(0, index);
 let inlineRadio1 = document.getElementById("inlineRadio1");
 let inlineRadio2 = document.getElementById("inlineRadio2");
 let inlineRadio3 = document.getElementById("inlineRadio3");
@@ -243,20 +240,7 @@ function playLevel2() {
     })
 }
 
-// if(location.href == "/index"){
-//     startGame();
-// }
-
-// document.addEventListener("click", function (e) {
-
-//     if (e.target == inlineRadio1 || e.target == inlineRadio2 || e.target == inlineRadio3) {
-//         startGame();
-//     }
-// })
-
 // level2
-
-
 
 let chickenLevel2 = document.getElementById("chickenLevel2");
 let weaponLevel2 = document.querySelector(".weaponLevel2");
