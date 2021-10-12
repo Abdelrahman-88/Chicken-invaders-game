@@ -195,7 +195,7 @@ function clearGame() {
     clearInterval(chickenInterval);
 }
 
-function startGame() {
+
     document.addEventListener("keydown", function (e) {
         if (e.key == "Enter" && weapon.classList.contains("d-none") && e.target == inlineRadio1) {
             sessionStorage.setItem("mode", JSON.stringify(inlineRadio1.value));
@@ -231,7 +231,7 @@ function startGame() {
             controls();
         }
     })
-}
+
 
 function playLevel2() {
     document.addEventListener("keydown", function (e) {
@@ -247,12 +247,12 @@ function playLevel2() {
 //     startGame();
 // }
 
-document.addEventListener("click", function (e) {
+// document.addEventListener("click", function (e) {
 
-    if (e.target == inlineRadio1 || e.target == inlineRadio2 || e.target == inlineRadio3) {
-        startGame();
-    }
-})
+//     if (e.target == inlineRadio1 || e.target == inlineRadio2 || e.target == inlineRadio3) {
+//         startGame();
+//     }
+// })
 
 // level2
 
